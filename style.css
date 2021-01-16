@@ -1,0 +1,59 @@
+h1, h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+#CalcButtons {
+	border: 2px solid black;
+	background-color: blanchedalmond;
+	margin: auto;
+	width: 248px;
+}
+
+#result {
+	height: 40px;
+	width: 195px;
+	margin: 5px 20px 5px 20px;
+	background-color: whitesmoke;
+	border: 2px inset lightgray
+}
+
+button {
+	font-size: 20px;
+	font-weight: bold;
+	height: 40px;
+	width: 40px;
+	margin: 5px;
+	background-color: lightskyblue;
+	border: 1px solid black;
+	text-align: center;
+}
+
+button:hover {
+	background-color: salmon;
+}
+
+.largebutton {
+	font-size: 12px;
+	padding: 2px;
+}
+
+.placeholder {
+	height: 40px;
+	width: 40px;
+	margin-left: 20px;
+}
+
+.leftbutton {
+	margin-left: 20px;
+}
+
+.rightbutton {
+	margin-right: 20px;
+}
+
+#result {
+	text-align: right;
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+}
